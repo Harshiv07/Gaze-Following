@@ -1,0 +1,61 @@
+<!-- # Group: Techies
+# Harshiv Patel, Rutvi Tilala and Mudra Suthar
+# Date: 28th October
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gaze Follow Detection</title>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="https://cdn.dribbble.com/users/891352/screenshots/2350917/svg_eye.gif" class="profile-img">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Service</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="../static/gimg.jpg" class="profile-img">
+                    <h1>Where are they looking?</h1>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>About our Topic</h2>
+                    <p>Humans have the remarkable ability to follow the gaze of other people to identify what they are looking at. Following eye gaze, or gaze-following, is an important ability that allows us to understand what other people are thinking, the actions they are performing, and even predict what they might do next. Despite the importance of this topic, this problem has only been studied in limited scenarios within the computer vision community.</p>'
+                    <p>In this paper, we propose a deep neural network-based approach for gaze-following and a new benchmark dataset, GazeFollow, for thorough evaluation. Given an image and the location of a head, our approach follows the gaze of the person and identifies the object being looked at. Our deep network is able to discover how to extract head pose and gaze orientation, and to select objects in the scene that are in the predicted line of sight and likely to be looked at (such as televisions, balls and food). The quantitative evaluation shows that our approach produces reliable results, even when viewing only the back of the head. While our method outperforms several baseline approaches, we are still far from reaching human performance on this task. Overall, we believe that gaze-following is a challenging and important problem that deserves more attention from the community.</p>
+                    <h3>Team Members</h3>
+                    <ul>
+                        <li>Mudra Suthar</li>
+                        <li>Rutvi Tilala</li>
+                        <li>Harshiv Patel</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>UPLOAD FILE</h2>
+                            <form action = "http://localhost:5000/uploader" method = "POST" 
+                                enctype = "multipart/form-data">
+                                 <input type = "file" name = "file" />
+                                 <input type = "submit"/>
+                            </form>
+                     
+                    <p>In case of query, <a href="mailto:harshiv.p@ahduni.edu.in">Talk here!</a>.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <strong>CSE518-AI & CSE540-CC</strong>
+            <strong>Ahmedabad University</strong> 
+        </footer>
+    </body>
+</html>
